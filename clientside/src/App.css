@@ -1,0 +1,36 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+html,
+body {
+  margin: 0;
+  height: 100% !important;
+}
+
+:root {
+  --mdb-body-bg: '#eee';
+}
+
+.form-outline .form-control:focus~.form-label,
+.form-outline .form-control.active~.form-label {
+  transform: translateY(-1rem) translateY(0.1rem) scale(0.8);
+}
+
+input[type="datetime-local"].form-control {
+  color: transparent;
+}
+
+input[type="datetime-local"].form-control:focus {
+  color: #797979;
+}
+
+input[type="datetime-local"].active {
+  color: #797979;
+}
+
+input[type="datetime-local"].form-control:active {
+  color: #797979;
+}
+
